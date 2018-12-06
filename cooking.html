@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>RoMobile - Cooking Recipes</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
+	<style type="text/css" class="init"></style>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+		    var table = $('#example').DataTable( {
+		        responsive: true
+		    } );	 
+		    new $.fn.dataTable.FixedHeader( table );
+		} );
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header" style="text-align: center; padding-top: 5%;">
+			<h1><b>Cooking Recipes</b></h1>
+			<h4>by</h4>
+			<h3>[DekGrean] F0l2getmenot TH120</h2>
+			<h5><a href="https://gamingph.com/2018/11/list-of-all-recipes-in-ragnarok-m-eternal-love/" class="badge badge-info">Credit</a> : <a href="https://gamingph.com/author/admin/" class="badge badge-primary">Erwin Bantilan</a></h5>
+		</div>
+		<div class="col-xs-12">
+			<div class="content">
+				<table id="example" class="table table-striped table-bordered nowrap" style="width: 100%;">
+					<thead>
+						<tr>
+							<th><strong>Image</strong></th>
+							<th><strong>Recipes</strong></th>
+							<th><strong>Stars</strong></th>
+							<th><strong>Materials</strong></th>
+							<th><strong>Type</strong></th>
+							<th><strong>Cook</strong></th>
+							<th><strong>Taste</strong></th>
+							<th><strong>Nutrition Value</strong></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img class="wp-image-12507" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_sashimi_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Sashimi</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Meat</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12506" style="width: 48px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_salad_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="48" height="50" /></td><td><strong>Rookie Salad</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Vegetables</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12509" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_sushi_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Sushi</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fish</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12501" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_fruit_plate_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Fruit Plate</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fruit</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12495" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/ray_dessert_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Ray Dessert</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12457" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/ice_cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Ice Cream</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Atk +12<br />Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12556" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/smokie-cookie.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Smokie Cookie</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Atk +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12516" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/seaside_black_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Seaside Black Tea</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />M.ATk +16<br />Def +16<br />Pen. +0.75%<br />MPen. +0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12430" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_cake_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Cheese Cake</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />M.Atk +16<br />Dmg Increase to non-boss units +0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12480" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_parfait_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Poring Parfait</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />Atk +16<br />M.Atk +16<br />Dmg Increase to Bosses +0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12435" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/duke_juice_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Duke Juice</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />M.Atk +20<br />Def +20<br />Pen. +1%<br />MPen. +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12526" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vantican_bread_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Vantican Bread</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Def +20<br />M.Def +20<br />Dmg to non-BOSS monster +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12426" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/ancient_ice_honey_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Ancient Ice Honey</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Atk +20<br />M.ATk +20<br />Dmg to BOSS monster +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12531" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_cake_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Yummy Cake</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />M.Atk +24<br />Def +24<br />Pen. +1.25%<br />MPen. +1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12539" style="width: 48px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="48" height="50" /></td><td><strong>Yummy Tea</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Def +24<br />M.Def +24<br />Dmg to non-BOSS monster +1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12532" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_cookie_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Yummy Cookie</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Atk +24<br />M.Atk +24<br />Dmg to BOSS monster +1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12460" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_bread_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Magic Bread</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />M.Atk +30<br />Def +30<br />Pen. +1.5%<br />MPen. +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12463" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_ice_cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Magic Ice Cream</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Def +30<br />M.Def +30<br />Dmg to non-BOSS monster +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12461" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_cookie_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Magic Cookie</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Atk +30<br />M.Atk +30<br />Dmg to BOSS monster +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12472" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/nobles_black_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Noble Black Tea</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />M.Atk +32<br />Def +32<br />Pen. +1.75%<br />MPen. +1.75%<br /><br /></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12466" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/merchant_citys_cake_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Merchant City&rsquo;s Cake</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Def +32<br />M.Def +32<br />Dmg to non-BOSS monster +1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12427" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_forest_cookie_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Bigfoot Forest Cookie</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12359" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Atk +32<br />M.Atk +32<br />Dmg to BOSS monster +1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12521" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/summer_star_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Summer Star</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />M.Atk +36<br />Def +36<br />Pen. +2%<br />MPen. +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12481" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/princess_afternoon_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Princess&rsquo; Afternoon Tea</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Def +36<br />M.Def +36<br />Dmg to non-BOSS monster +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12450" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gatlers_palace_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Gatler&rsquo;s Palace</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Atk +36<br />M.Atk +36<br />Dmg to BOSS monster +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12489" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_juice_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Prontera Royal Juice</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/civet_grape_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Smokie Grape<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />M.Atk +38<br />Def +38<br />Pen. +2.25%<br />MPen +2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12484" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_cookie_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Prontera Royal Cookie</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Def +38<br />M.Def +38<br />Dmg against non-boss +2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12488" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_ice_cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royal Ice Cream</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Atk +38<br />M.Atk +38<br />Dmg against bosses +2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12476" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_juice_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Original Will-Juice</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12359" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rainbow_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rainbow Powder</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />M.Atk +40<br />Def +40<br />Pen. +2.5%<br />MPen. +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12557" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/original-will-cookie.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Original Will-Cookies</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12359" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/monkey_banana_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Yoyo Banana<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Def +40<br />M.Def +40<br />Dmg to non-BOSS monster +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12475" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_ice_cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Original Will-Ice Cream</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/moai_melon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Moai Melon<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bigfoot_pineapple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bigfoot Pineapple<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rainbow_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rainbow Powder</td>
+							<td>Smoothie</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Atk +40<br />M. Atk +40<br />Dmg to BOSS monster +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12497" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Rookie Broth</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Meat</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12511" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_vegetable_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Vegetable Soup</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Vegetables</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12498" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_fish_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Rookie Fish Soup</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fish</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12496" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_black_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="48" /></td><td><strong>Rookie Black Tea</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fruit</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12449" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/fragrant_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Fragrant Broth</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Def +21</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12445" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/fish_head_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Fish Head Soup</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Atk +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12470" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/mums_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Mum&rsquo;s Soup</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Atk +12<br />M.Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12471" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/music_box_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Music Box Broth</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +12<br />Max SP +12<br />Def +16<br />Equipment ASPD +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12528" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/warm_current_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Warm Current</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />Atk +16<br />M.Def +16<br />Defense Ignoring +0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12433" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/delicious_vegetable_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Delicious Vegetable Soup</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/goblin_strawberry_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Goblin Strawberry</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />M.Atk +16<br />M.Def +16</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12513" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/satisfied_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Satisfied</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Def +20<br />Equipment ASPD +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12517" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/singing_soul_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Singing Soul</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Atk +20<br />M.Def +20<br />Ignore Def +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12529" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/warm_oasis_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Warm Oasis</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />M.Atk +20<br />M.Def +20</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12530" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Yummy Broth</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Def +24<br />Equipment ASPD +1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12537" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_seafood_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Yummy Seafood Soup</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Atk +24<br />M.Def +24<br />Ignore Def +1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12541" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_vegetables_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Yummy Vegetable Soup</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />M.Atk +24<br />M.Def +24</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12438" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Fantasy Broth</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Def +30<br />M.Def +30<br />Equipment ASPD +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12439" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_fish_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Fantasy Fish Soup</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Atk +30<br />Def +30<br />Ignore Def +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12443" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_vegetable_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Fantasy Vegetable Soup</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />M.Atk +30<br />M.Def +30</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12468" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mothers_hug_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Mother&rsquo;s Hug</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Def +32<br />M.Def +32<br />Equipment ASPD +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12425" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/al_de_baran_fish_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Al De Baran Fish Soup</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Atk +32<br />M.Def +32<br />Ignore Def +1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12482" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/princess_black_tea_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Princess&rsquo; Black Tea</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />M.Atk +32<br />M.Def +32</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12428" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/brandy_march_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Brandy March</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Def +36<br />M.Def +36<br />Equipment ASPD +3%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12519" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/song_for_you_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Song for You</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Atk +36<br />M.Def +36<br />Ignore Def +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12512" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sage_in_dark_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Sage in Dark</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />M.Atk +36<br />M.Def +36</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12483" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royal Broth</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Def +38<br />M.Def +38<br />Equipment ASPD +3.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12493" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_seafood_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Prontera Royal Seafood Soup</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Atk +38<br />M.Def +38<br />Defense Ignoring +2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12494" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_vegetable_soup_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royale Vegetable Soup</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />M.Atk +38<br />M.Def +38</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12473" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_broth_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Original Will-Broth</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rainbow_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rainbow Powder</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Def +40<br />M.Def +40<br />Equipment ASPD +3.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12559" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/original-will-seafood.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Original Will-Seafood Soup</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rainbow_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rainbow Powder</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Atk +40<br />M.Def +40<br />Ignore Def +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12558" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_vege.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Original Will-Vegetable Soup</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Steaming</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />M.Atk +40<br />M.Def +40</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12504" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_meat_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Meat Kebab</strong></td><td><strong>✩</strong></td>
+							<td><br />1 x Any Meat</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12510" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_vegetable_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Vegetable Kebab</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Vegetables</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12508" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_seefood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Seafood Kebab</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fish</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12502" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_fruit_slices_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Fruit Slices</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fruit</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12547" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/popular-kebab.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Popular Kebab</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12458" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/island_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Island Kebab</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12350" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12347" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Atk +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12469" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/msg_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>MSG</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12369" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;South Gate Carrot<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12467" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/messengers_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Starving Kebabs</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +200<br />Max SP +12<br />Def +16<br />M.Def +16</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12437" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/eastrud_pride_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Izlude Pride</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />Atk +16<br />Def +16<br />Physical Defense +16<br />Dmg Increase to Players +0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12444" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/farmers_smile_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Farmer&rsquo;s Smile</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12363" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />M.Def +16</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12453" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Gold Kebab</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12361" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12372" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +18<br />Def +20<br />M.Def +20</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12522" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/superb_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Superb Seafood Kebab</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12362" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Atk +20<br />Physical Defense +20<br />Dmg Increase to Players +1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12448" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flame_vegetable_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Flame Vegetable Kebab</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12349" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />M.Def +20</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12548" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy-kebab.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Yummy Kebab</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12361" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +21<br />Def +24<br />M.Def +24</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12536" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Yummy Seafood Kebab</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12362" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Atk + 24<br />Def +24<br />Dmg to player +1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12541" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_vegetables_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Yummy Vegetables</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12349" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12369" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;South Gate Carrot<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP + 216<br />Max SP +21<br />M.Atk +24<br />M.Def +24</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12464" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_meat_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Magic Meat Kebab</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12352" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12363" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/poring_apple_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Poring Apple<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +30<br />M.Atk +30<br />Def +30</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12465" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Magic Seafood Kebab</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12350" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Atk +30<br />M.Def +30<br />Dmg to Player +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12462" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_green_bbq_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Magic Green BBQ</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt<br /><img class="wp-image-12347" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />M.Atk +30<br />M.Def +30<br /><br /><em>(Won&rsquo;t die when receiving a death blow. 1 HP will be kept. Be invincible in the next 2 seconds. The effect CD is 15 seconds, and can be triggered up to once.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12452" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_cross_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Gold Cross Kebab</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12372" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +36<br />Def +32</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12429" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/call_from_ocean_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Call From Ocean</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili<br /><img class="wp-image-12372" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Atk +32<br />Def +32<br />Dmg to Player +1.75%<br /><br /><em>(Won&rsquo;t die when receiving a death blow. 1 HP will be kept. Be invincible in the next 2 seconds. The effect CD is 15 seconds, and can be triggered up to once.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12479" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/payons_vegetable_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Payon&rsquo;s Vegetable Kebab</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12356" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk<br /><img class="wp-image-12372" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />M.Atk +32<br />M.Def +32</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12455" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/huge_tower_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Giant Pagoda</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12361" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12344" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +700<br />Max SP +42<br />Def +36</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12525" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/trubius_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Trubius Seafood Kebab</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12362" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12341" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Atk +36<br />Def +36<br />Dmg to Player +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12518" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sky_blade_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Sky Blade</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12349" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />M.Atk +36<br />M.Def +36<br /><br /><em>(Won&rsquo;t die when receiving a death blow. 1 HP will be kept. Be invincible in the next 2 seconds. The effect CD is 15 seconds, and can be triggered up to once.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12490" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_meat_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Prontera Royal Kebab</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12361" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +830<br />Max SP +50<br />Def +38</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12486" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_fish_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royal Fish Kebab</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12362" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Atk +38<br />Physical Defense +38<br />Dmg Increase to players +2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12487" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_green_bbq_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Prontera Royal Green BBQ</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12349" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12341" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />M.Def +38<br />Cast Delay -2.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12477" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Original Will-Kebab</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12368" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12361" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12357" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +1000<br />Max SP +60<br />Def +40</td>
+						</tr>
+						<tr>
+							<td><br /><img class="wp-image-12549" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/original-will-fish-kebab.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Original Will-Fish Kebab</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12353" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12362" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12357" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Atk +40<br />Def +40<br />Dmg to player +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12551" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/original-will-vege.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="51" /></td><td><strong>Original Will-Green Kebab</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12339" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12349" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12357" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Grilling</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />M.Atk +40<br />M.Def +40<br /><br /><em>(Won&rsquo;t die when receiving a death blow. 1 HP will be kept. Be invincible in the next 2 seconds. The effect CD is 15 seconds, and can be triggered up to twice.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12505" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_meat_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Meat Steak</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Meat</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12500" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_fried_dish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Fried Dish</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Vegetables</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Def +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12499" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_fish_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Rookie Fish Steak</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fish</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12503" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/rookie_jam_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Rookie Jam</strong></td><td><strong>✩</strong></td>
+							<td>1 x Any Fruit</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +60<br />Max SP +6<br />M.Atk +8</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12524" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/traveler_bacon_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Traveler Bacon</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12352" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> Salt&nbsp;</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Def +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12514" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/seafood_bowl_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Seafood Bowl</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat&nbsp;<br /><img class="wp-image-12347" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />Atk + 12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12454" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/healthy_salad_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Healthy Salad</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato&nbsp;<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt&nbsp;</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +90<br />Max SP +9<br />M.Atk +12</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12515" style="width: 49px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/seafood_rice_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Seafood Rice</strong></td><td><strong>★</strong></td>
+							<td><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12356" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP + 120<br />Max SP + 12<br />Atk+16<br />Move Spd +1%&nbsp;</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12432" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/delicious_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Delicious Steak</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;EggShell Chick</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP + 120<br />Max SP + 12<br />Def +16<br />M.Def +16<br /><br /><em>(Immune to an abnormal status attack. The effect CD is 15 seconds, and up to 2 abnormal status attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12527" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/vegetable_meal_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Vegetable Meal</strong></td><td><strong>★✩</strong></td>
+							<td><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12379" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12356" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +120<br />Max SP +12<br />M.Atk +16<br />Cast Delay &ndash; 0.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12447" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flame_god_history_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Flame God History</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12368" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Def + 20<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 3 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12436" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/east_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>East Seafood Kebab</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12353" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />Atk +20<br />Move Spd +1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12520" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/spicy_branch_vegetable_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Spicy Branch Vegetable</strong></td><td><strong>★★</strong></td>
+							<td><img class="wp-image-12339" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12369" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;South Gate Carrot<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +180<br />Max SP +18<br />M.Atk +20<br />Cast Delay -1%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12538" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Yummy Steak</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12339" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12352" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />Def + 24<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 3 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12533" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_fish_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Yummy Fish Steak</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12353" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP + 216<br />Max SP + 21<br />Atk + 24<br />Move Spd +1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12535" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/yummy_salad_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Yummy Salad</strong></td><td><strong>★★✩</strong></td>
+							<td><img class="wp-image-12339" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12373" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/west_gate_tomato_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;West Gate Tomato<br /><img class="wp-image-12344" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +216<br />Max SP +21<br />M.Atk +24<br />Cast Delay -1.25%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12442" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Fantasy Steak</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/rocker_leg_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Rocker Leg Meat<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Def +30<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 4 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12441" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_seafood_kebab_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Fantasy Seafood Kebab</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12371" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/vadon_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vadon Meat<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />Atk +30<br />Move Spd +2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12440" style="width: 49px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/fantasy_salad_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Fantasy Salad</strong></td><td><strong>★★★</strong></td>
+							<td><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12369" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;South Gate Carrot<br /><img class="wp-image-12366" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/salt_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Salt<br /><img class="wp-image-12356" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/milk_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Milk</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +300<br />Max SP +30<br />M.Atk +30<br />Cast Delay -1.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12451" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/geffen_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Geffen Steak</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12346" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili<br /><img class="wp-image-12347" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/flour_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Flour</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Def +32<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 4 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12456" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Hydra</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12350" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili<br /><img class="wp-image-12372" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/vanilla_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Vanilla</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />Atk +32<br />Move Spd +2.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12459" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/jungle_dish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Forest Treasure</strong></td><td><strong>★★★✩</strong></td>
+							<td><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12369" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;South Gate Carrot<br /><img class="wp-image-12370" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/sugar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sugar<br /><img class="wp-image-12342" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/chili_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Chili</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +360<br />Max SP +36<br />M.Atk + 32<br />Cast Delay -1.75%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12434" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Desert Steak</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12368" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12341" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />Def +36<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 4 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12446" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/fishmans_soul_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Fishman&rsquo;s Soul</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12353" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12355" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12338" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP + 42<br />Atk +36<br />Move Spd +3%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12523" style="width: 49px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/sweet_coriander_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="49" height="50" /></td><td><strong>Sweet Coriander</strong></td><td><strong>★★★★</strong></td>
+							<td><img class="wp-image-12339" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12360" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce<br /><img class="wp-image-12344" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +420<br />Max SP +42<br />M.Atk +36<br />Cast Delay -2%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12491" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_meat_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royal Steak</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12368" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12345" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12352" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/lunatic_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Lunatic Meat<br /><img class="wp-image-12367" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce<br /><img class="wp-image-12344" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/cream_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cream</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Def +38<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 4 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12486" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_fish_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Prontera Royal Fish Steak</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Inkfish Tentacle<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/hydra_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Hydra Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/cheese_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Cheese<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />Atk +38<br />Move Spd +3.25%<br /><br /></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12492" style="width: 50px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/prontera_royal_salad_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Prontera Royal Salad</strong></td><td><strong>★★★★✩</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/south_gate_carrot_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> South Gate Carrot<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/apple_vinegar_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Apple Vinegar<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/sauce_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Sauce</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +500<br />Max SP +50<br />M.Def +38<br />Cast Delay -2.25%<br /><br /><em>(Won&rsquo;t die when receiving a death blow. 1 HP will be kept. Be invincible in the next 2 seconds. The effect CD is 15 seconds, and can be triggered up to twice.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12478" style="width: 50px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_steak_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="50" /></td><td><strong>Original Will-Steak</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/savage_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Savage Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/muka_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Muka Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/desert_wolf_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Desert Wolf Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/egg_shell_picky_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Eggshell Chick<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Def +40<br /><br /><em>(Immune to an abnormal&nbsp;status attack. The effect&nbsp;CD is 15 seconds, and up&nbsp;to 4 abnormal&nbsp; status&nbsp;attacks can be immunized.)</em></td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12474" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/original_will_fish_filet_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Original Will-Fish Steak</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marc_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marc Meat<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/mutated_fish_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mutated Fish<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/marina_meat_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Marina Meat<br /><img class="wp-image-12351" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/inkfish_tentacle_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" /> Inkfish Tentacle<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />Atk +40<br />Move Spd +3.5%</td>
+						</tr>
+						<tr>
+							<td><img class="wp-image-12545" style="width: 50px;" src="https://i2.wp.com/gamingph.com/wp-content/uploads/2018/11/original_salad.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="50" height="49" /></td><td><strong>Original Will-Salad</strong></td><td><strong>★★★★★</strong></td>
+							<td><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/bamboo_eggplant_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Bamboo Eggplant<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/gold_pumpkin_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="19" />&nbsp;Gold Pumpkin<br /><img class="wp-image-12365" style="width: 20px;" src="https://i0.wp.com/gamingph.com/wp-content/uploads/2018/11/magic_spore.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Magic Spore<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/mountain_celery_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Mountain Celery<br /><img class="wp-image-12365" style="width: 20px;" src="https://i1.wp.com/gamingph.com/wp-content/uploads/2018/11/miso_powder_2.jpg?zoom=2&amp;w=950&amp;ssl=1" alt="" width="20" height="20" />&nbsp;Miso Powder</td>
+							<td>Frying</td>
+							<td>cook unlock</td>
+							<td>taste unlock</td>
+							<td>Max HP +600<br />Max SP +60<br />M.Def +40<br />Cast Delay -2.5%</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th><strong>Image</strong></th>
+							<th><strong>Recipes</strong></th>
+							<th><strong>Stars</strong></th>
+							<th><strong>Materials</strong></th>
+							<th><strong>Type</strong></th>
+							<th><strong>Cook</strong></th>
+							<th><strong>Taste</strong></th>
+							<th><strong>Nutrition Value</strong></th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+<footer style="text-align: center; padding-top: 3%;">
+	
+</footer>
+</html>
